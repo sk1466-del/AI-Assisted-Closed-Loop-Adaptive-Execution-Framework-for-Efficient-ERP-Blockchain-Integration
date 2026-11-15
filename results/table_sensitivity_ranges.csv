@@ -1,0 +1,6 @@
+,offchain_saving_pct,offchain_saving_pct,macro_p95_cost_pct,macro_p95_cost_pct,HIGH_p95_cost_pct,HIGH_p95_cost_pct,LOW_p95_cost_pct,LOW_p95_cost_pct,SLA_gap_pp,SLA_gap_pp,completed_tps_change_pct,completed_tps_change_pct,ADAPT_vs_CONST_macro_gain_pct,ADAPT_vs_CONST_macro_gain_pct
+,min,max,min,max,min,max,min,max,min,max,min,max,min,max
+load,,,,,,,,,,,,,,
+0.5,24.82,46.08,1.07,6.98,0.0,0.28,3.05,15.84,-0.66,-0.17,-0.0,0.0,0.37,2.73
+0.7,2.26,5.41,0.23,0.91,-0.01,0.07,0.28,1.87,-0.1,-0.04,-0.0,0.0,-0.91,-0.23
+0.85,0.24,0.66,-0.05,0.33,-0.0,0.02,-0.16,0.55,-0.05,0.02,-0.0,0.0,-0.33,0.05

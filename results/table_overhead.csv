@@ -1,0 +1,7 @@
+stage,ms_per_decision
+"Feature generation (pandas, 200-block window)",13.065147019988217
+"Demand-forecast inference (GradientBoosting, 1 row)",1.88045868667056
+Regime decision (threshold comparisons only = the O(1) part),0.0018201915699864912
+"Queue selection, adaptive CONG regime (300 queued tx)",0.2528644619997067
+"Queue selection, static FIFO (300 queued tx)",0.06452936799905729
+"Drift-triggered recalibration (total over whole test period, ms)",15352.17078100004

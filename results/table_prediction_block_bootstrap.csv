@@ -1,0 +1,7 @@
+task,model,vs,MAE_improvement_pct,CI95_low,CI95_high,significant
+A: interval,MLP,Baseline: train mean,-1.0141399595188365,-1.1980868745611344,-0.8625496897589077,False
+A: interval,MLP,Baseline: previous interval,25.616273856127034,24.726717661813577,26.50627760038223,True
+B: demand,GradientBoosting,Baseline: train mean,22.14241805070027,19.082127061748384,24.717699025715763,True
+B: demand,GradientBoosting,Baseline: persistence (5-block mean),23.94262963501756,22.604461672582794,25.286399310892392,True
+B: demand,GradientBoosting,Baseline: 36-block mean,14.214076665683198,11.84389969089121,16.54340042768023,True
+B: demand,GradientBoosting,Baseline: hour-of-day mean,12.485770647706703,8.876253267572519,15.760219111271596,True

@@ -1,0 +1,6 @@
+test,passed
+identical arrivals for identical seed,True
+determinism (same input -> same output),True
+conservation: arrived = confirmed + still queued (all policies),True
+block capacity never exceeded (all policies),True
+"no-harm at unseen rho=0.2 (worst class mean latency change +2.4%, tolerance +10%)",True

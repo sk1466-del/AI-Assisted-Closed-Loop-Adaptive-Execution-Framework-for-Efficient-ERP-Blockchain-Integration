@@ -1,0 +1,15 @@
+verdict,claim,evidence
+NOT SUPPORTED,ADAPTIVE has LOWER tail latency than BEST_FIXED (general superiority),12 stress cases; paired difference -6.03% to +1.62% (negative = ADAPTIVE worse)
+NOT SUPPORTED,"ADAPTIVE is within 5% of BEST_FIXED in class-averaged p95 (non-inferiority, all stress cases)",worst case -6.03% [CI half-width up to ±1.10]
+SUPPORTED,"ADAPTIVE relies LESS on off-chain than BEST_FIXED, i.e. keeps MORE payload on-chain (all stress cases)",off-chain share lower by +3.29% to +89.42%
+NOT SUPPORTED,"At MATCHED off-chain share (|gap| <= 0.01, points chosen on validation) ADAPTIVE has lower p95 than the no-forecast ablation",4 matched / 8 candidate pairs; effect -1.42% to +0.16%
+NOT SUPPORTED,"At MATCHED off-chain share (|gap| <= 0.01, points chosen on validation) ADAPTIVE has lower p95 than the shuffled-forecast placebo",8 matched / 8 candidate pairs; effect +0.05% to +0.23%
+NOT SUPPORTED,"At MATCHED off-chain share (|gap| <= 0.01, points chosen on validation) ADAPTIVE has lower p95 than backlog-only FEEDBACK",5 matched / 8 candidate pairs; effect -2.84% to +1.01%
+INCONCLUSIVE,In the bursty scenarios ADAPTIVE has lower in-event p95 than the shuffled-forecast placebo,6 cases; effect -0.22% to +0.71%
+INCONCLUSIVE,In the bursty scenarios ADAPTIVE has lower in-event p95 than the frozen-forecast variant,6 cases; effect +0.00% to +0.17%
+INCONCLUSIVE,Announcing the month-end schedule to the forecaster lowers ADAPTIVE's in-event p95 (anticipation value),rho_base 0.3: +0.69% [±0.45]; rho_base 0.6: +0.77% [±0.93]
+NOT SUPPORTED,The forecast changes the regime decision in more than 5% of blocks at every load,"divergence vs no-forecast: rho 0.5: 21.8%, rho 0.7: 8.7%, rho 0.85: 1.1%, rho 0.95: 0.1%"
+SUPPORTED,No hybrid policy starves the LOW class (starvation rate <= 0.1% at every load),max LOW starvation 0.0000
+SUPPORTED,STATIC starves LOW at high load (>= 5% at rho >= 0.85),"rho 0.85: 10.8%, rho 0.95: 74.1%"
+NOT SUPPORTED,ADAPTIVE keeps LOW p95 within 5% of BEST_FIXED (all loads),rho 0.5: -9.3% [±0.7]; rho 0.7: -0.8% [±0.4]; rho 0.85: -0.2% [±0.2]; rho 0.95: -0.0% [±0.1]
+SUPPORTED,Hybrid policies recover within 5 blocks after a capacity dip down to 40%,hybrid max recovery 2.8 blocks; STATIC max 58.4

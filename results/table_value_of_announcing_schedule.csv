@@ -1,0 +1,9 @@
+rho_base,scenario,comparator,metric,a_better_by,ci95,n
+0.3,month-end close,unannounced,window_macro_p95,0.6910813948997847,0.45467556373544415,5
+0.6,month-end close,unannounced,window_macro_p95,0.7674740451555472,0.9291141461809049,5
+0.3,month-end close,unannounced,window_HIGH_p95,0.0,0.0,5
+0.6,month-end close,unannounced,window_HIGH_p95,0.0,0.0,5
+0.3,month-end close,unannounced,macro_p95,0.08126616224369505,0.09135628921708071,5
+0.6,month-end close,unannounced,macro_p95,0.1656755978236175,0.12505315800109207,5
+0.3,month-end close,unannounced,offchain_share,-29.771037633357242,2.577616373717934,5
+0.6,month-end close,unannounced,offchain_share,-1.240001948856331,0.05350770394816109,5

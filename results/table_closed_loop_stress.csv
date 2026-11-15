@@ -1,0 +1,3 @@
+mode,MAE_all,MAE_after_drift,n_recalibrations,first_detection_cycle,drift_starts_cycle
+frozen,385.2666363806728,528.2337204979905,0,,46
+drift,307.71058154805263,373.1332681384519,3,47.0,46

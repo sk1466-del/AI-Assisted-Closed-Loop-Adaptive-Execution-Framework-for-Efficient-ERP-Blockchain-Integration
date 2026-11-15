@@ -1,0 +1,11 @@
+{
+  "design_hash": "d6c30b92b47d5336",
+  "reproducibility_vs_v5": true,
+  "simulate_ex_equals_simulate": true,
+  "seeds": {
+    "bursty": 5,
+    "dip": 5,
+    "fairness": 5,
+    "divergence": 5
+  }
+}
