@@ -1,4 +1,4 @@
-# AI-Assisted Closed-Loop Adaptive Execution Framework for ERP–Blockchain Integration: code and results (release v5.3.0)
+# AI-Assisted Closed-Loop Adaptive Execution Framework for ERP–Blockchain Integration: code and results
 
 This release accompanies the manuscript *AI-Assisted Closed-Loop Adaptive Execution Framework for Efficient ERP–Blockchain Integration: A Trace-Driven Study*.
 It contains one definitive configuration: **code version v5.2.1, design hash `d6c30b92b47d5336`**. The files below provide the results and the analysis scripts behind the tables and figures of the manuscript and Supplementary Material; `check_numbers.py` independently recomputes the key numerical entries.
