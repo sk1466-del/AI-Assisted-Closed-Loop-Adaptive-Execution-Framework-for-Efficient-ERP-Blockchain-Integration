@@ -1,0 +1,2 @@
+k,xcap,adapt_cfg,const_cfg,ADAPT_off,ADAPT_lat_cost_pct,CONST_off,CONST_lat_cost_pct,diff_latency_pct,diff_latency_ci,diff_off,diff_off_ci
+0,0.2,"(0.6, 1.0, 'I')","(0.8, 1.0, 'I')",0.27616208624459365,4.118617579869772,0.25458443725501806,4.927907768009084,-0.7709301644354134,0.12333172076393949,0.021577648989575496,0.0001725893274573952
