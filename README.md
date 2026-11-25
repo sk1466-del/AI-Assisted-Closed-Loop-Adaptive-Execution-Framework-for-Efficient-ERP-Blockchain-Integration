@@ -1,6 +1,6 @@
 # AI-Assisted Closed-Loop Adaptive Execution Framework for ERP–Blockchain Integration: code and results
 
-Archived version: https://doi.org/10.5281/zenodo.24496441
+Archived version: https://doi.org/10.5281/zenodo.24531940
 
 This repository accompanies the manuscript *AI-Assisted Closed-Loop Adaptive Execution Framework for Efficient ERP–Blockchain Integration*.
 It contains one definitive configuration: **code version v5.2.1, design hash `d6c30b92b47d5336`**. The files below provide the results and the analysis scripts behind the tables and figures of the manuscript and Supplementary Material; `check_numbers.py` independently recomputes the key numerical entries.
@@ -47,4 +47,4 @@ A trace-driven queue simulator replays 66,532 real Bitcoin blocks (heights 610,6
 Please cite the manuscript above and the archived version (Zenodo DOI above). The code is released under the MIT licence (`LICENSE`); the results files and figures are released under CC BY 4.0.
 
 ## Version history
-- v5.2.1 (this release): code, configuration and results as reported in the manuscript (design hash `d6c30b92b47d5336`). In the second revision only documentation and `check_numbers.py` changed: the summary and exit statement were moved to the end of the script so that every check runs, and checks for Supplementary Tables S2 and S6 and for Table 5A at all loads were added. No experiment or result changed.
+- v5.2.1 (this release): code, configuration and results as reported in the manuscript (design hash `d6c30b92b47d5336`). In the second revision only documentation and `check_numbers.py` changed: the summary and exit statement were moved to the end of the script so that every check runs, and checks for Supplementary Tables S2 and S6 and for Table 5A at all loads were added. Zenodo version v2 (https://doi.org/10.5281/zenodo.24531940) also updates the text inside six figures to the manuscript's wording (“evaluation period” instead of “test period”/“held-out”, and “modelled off-chain share” on the x-axis of Fig. 5): `fig_demand_forecast`, `fig_backlog`, `fig_pareto`, `fig_closed_loop_mae`, `fig2_workflow` and `fig_segments` (PNG, and PDF where present). The figure scripts in `figures/` keep the original labels. No experiment or result changed.
